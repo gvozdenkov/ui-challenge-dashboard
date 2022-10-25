@@ -1,0 +1,31 @@
+.icon {
+  fill: var(--color-content-primary);
+  height: 100%;
+}
+
+.side-menu-item__icon {
+  margin-left: 20px;
+  width: 22px;
+  fill: inherit;
+  position: relative;
+}
+
+.icon_type_site-logo {
+  width: 102px;
+  fill: var(--color-content-secondary);
+}
+
+.side-menu-item__icon_type_notifications {
+  position: relative;
+}
+
+.notification-sign::after {
+  content: "";
+  position: absolute;
+  left: 34px;
+  bottom: 30px;
+  background-color: var(--color-accent-primary);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}

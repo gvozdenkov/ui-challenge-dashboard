@@ -1,0 +1,15 @@
+.avatar {
+  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.side-menu__avatar {
+  width: 40px;
+  margin-left: 20px;
+}
+
+.side-menu__text {
+  margin: 0;
+}

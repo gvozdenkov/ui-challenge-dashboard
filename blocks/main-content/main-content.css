@@ -1,0 +1,6 @@
+.main-content {
+  background-color: var(--color-backgroun-primary);
+  color: var(--color-content-primary);
+  border-radius: 0 5px 5px 0;
+  width: 100%;
+}

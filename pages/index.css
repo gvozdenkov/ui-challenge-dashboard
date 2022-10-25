@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../vendor/variables.css);
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__content/page__content.css);
@@ -7,5 +8,19 @@
 
 @import url(../blocks/heading/heading.css);
 
+@import url(../blocks/icon/icon.css);
+
+@import url(../blocks/toggle-btn/toggle-btn.css);
+
+@import url(../blocks/avatar/avatar.css);
+
 @import url(../blocks/app/app.css);
 
+@import url(../blocks/side-menu/side-menu.css);
+@import url(../blocks/side-menu/__dark-mode-btn/side-menu__dark-mode-btn.css);
+
+@import url(../blocks/side-menu-list/side-menu-list.css);
+
+@import url(../blocks/side-menu-item/side-menu-item.css);
+
+@import url(../blocks/main-content/main-content.css);
