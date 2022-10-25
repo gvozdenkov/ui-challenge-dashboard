@@ -10,6 +10,7 @@
   --color-accent-primary-glass-a: rgb(var(--blue), 0.2);
   --color-accent-primary-glass-b: rgb(var(--blue), 0.3);
   --color-accent-primary-glass-c: rgb(var(--blue), 0.1);
+  --color-accent-primary-glass-d: rgb(var(--blue), 0.5);
 }
 
 .theme-dark {
@@ -20,4 +21,5 @@
   --color-accent-primary-glass-a: rgba(255 255 255 / 0.2);
   --color-accent-primary-glass-b: rgb(var(--blue), 0.3);
   --color-accent-primary-glass-c: rgb(var(--blue), 0.1);
+  --color-accent-primary-glass-d: rgb(var(--blue), 0.5);
 }

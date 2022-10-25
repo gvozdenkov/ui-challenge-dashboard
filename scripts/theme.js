@@ -15,7 +15,5 @@ function toggleTheme() {
     : (doc.className = "theme-dark");
 }
 
-// buttonSwitch = document.querySelector(".theme-switch");
 buttonSwitch = document.querySelector(".side-menu__dark-mode-btn");
-console.log(buttonSwitch);
 buttonSwitch.addEventListener("change", toggleTheme);

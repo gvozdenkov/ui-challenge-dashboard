@@ -227,7 +227,39 @@
             <button class="side-menu__log-out-btn">Sign out</button>
           </div>
         </section>
-        <section class="main-content">sdf</section>
+        <section class="main-content">
+          <header class="main-content-header">
+            <h1 class="main-content-header__title">Dashboard</h1>
+            <p class="main-content-header__subtitle">
+              &nbsp;&mdash;&nbsp;(<span
+                class="main-content-header__projects-count"
+                >19</span
+              >) projects
+            </p>
+            <form
+              action="/"
+              class="search-bar-form main-content-header__search-bar-form"
+              name="search-bar-form"
+            >
+              <input
+                class="search-bar-form__input"
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search projects..."
+                aria-label="Search box"
+              />
+              <button
+                type="submit"
+                class="search-bar-form__submit"
+                aria-label="Search"
+              >
+                <img src="./images/magnifying-glass.svg" alt="" />
+              </button>
+            </form>
+            <button class="button main-content-header__new-proj-btn">+ new project</button>
+          </header>
+        </section>
       </div>
     </div>
     <script src="./scripts/theme.js"></script>

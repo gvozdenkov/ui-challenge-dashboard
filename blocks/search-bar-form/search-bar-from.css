@@ -1,0 +1,42 @@
+.search-bar-form {
+  position: relative;
+  flex: 0 1 30%;
+}
+
+.search-bar-form__input {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  padding: 14px 50px 13px 20px;
+  border: 1px solid var(--color-accent-primary);
+  border-radius: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-bar-form__input:focus {
+  outline: none;
+}
+
+.search-bar-form__submit {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 50%;
+  right: 15px;
+  translate: 0 50%;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.search-bar-form__submit > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.main-content-header__search-bar-form {
+  margin-left: auto;
+}

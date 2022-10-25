@@ -1,0 +1,28 @@
+.main-content-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 9px 10px 9px 20px;
+  box-sizing: border-box;
+  color: var(--color-content-secondary);
+  border-bottom: 1px solid var(--color-accent-primary-glass-a);
+}
+
+.main-content-header__title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.18;
+  margin: 0;
+}
+
+.main-content-header__subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.18;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.main-content-header__new-proj-btn {
+  margin-left: 20px;
+}
